@@ -13,7 +13,7 @@ app.use(express.static('public'));
 app.use(morgan('combined', { stream: require('fs').createWriteStream('./logs/access.log', { flags: 'a' }) }));
 
 // MongoDB connection
-mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(process.env.MONGODB_URI)
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.error(err));
 
