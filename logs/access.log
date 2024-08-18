@@ -1,0 +1,5 @@
+::1 - - [18/Aug/2024:18:45:11 +0000] "GET /styles.css HTTP/1.1" 404 149 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+::1 - - [18/Aug/2024:18:45:38 +0000] "POST /scrape HTTP/1.1" 500 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+::1 - - [18/Aug/2024:18:45:42 +0000] "POST /scrape HTTP/1.1" 500 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+::1 - - [18/Aug/2024:18:48:20 +0000] "POST /scrape HTTP/1.1" 200 556 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+::1 - - [18/Aug/2024:18:48:25 +0000] "POST /interact HTTP/1.1" 500 31 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
